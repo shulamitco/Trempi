@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddTrempActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center|top"
+   >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_car"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <EditText
+        android:id="@+id/txv_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/start_position"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/txt_exit_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_time"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorBlack"/>
+    <TimePicker
+        android:id="@+id/tmp_time_tremp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/txv_empty_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/number_of_empty_places"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn_add_tremp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_background"
+        android:layout_margin="10dp"/>
+</LinearLayout>

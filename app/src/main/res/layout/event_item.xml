@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/txv_event_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/event_name"
+    android:textSize="15sp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/event_item_background"
+    android:layout_margin="7dp"
+    android:textColor="@color/colorWhite"
+    style="@style/TextAppearance.AppCompat.Title"
+    />
+
+</LinearLayout>
